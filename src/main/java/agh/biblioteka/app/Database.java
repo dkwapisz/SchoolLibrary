@@ -5,15 +5,15 @@ import com.jcraft.jsch.*;
 
 public class Database {
 
-    private final static String DB_URL = "jdbc:mysql://localhost:4321/s401343";
-    private final static String DB_USER = "s401343";
-    private final static String DB_PASS = "ufnwj1a5m4dt";
+    private final static String DB_URL = "jdbc:mysql://localhost:4321/database"; //put your database name
+    private final static String DB_USER = "username"; //put your database username
+    private final static String DB_PASS = "password"; //put your database password
     private final static String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
 
-    private final static String SSH_USER = "s401343";
-    private final static String SSH_HOST = "labagh.pl";
+    private final static String SSH_USER = "username"; //put your SSH username
+    private final static String SSH_HOST = "host"; //put your SSH host
     private final static int SSH_PORT = 22;
-    private final static String SSH_PASS = "2kbhc2xyf43e";
+    private final static String SSH_PASS = "password"; //put your SSH password here
 
     private Connection connection;
     private Session session;
