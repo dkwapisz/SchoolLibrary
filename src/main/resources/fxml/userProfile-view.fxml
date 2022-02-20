@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.UserProfileController">
+   <children>
+      <TextField fx:id="surnameTextField" disable="true" editable="false" focusTraversable="false" layoutX="320.0" layoutY="80.0" prefHeight="30.0" prefWidth="200.0" promptText="Surname">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailTextField" disable="true" editable="false" focusTraversable="false" layoutX="320.0" layoutY="130.0" prefHeight="30.0" prefWidth="200.0" promptText="Email Adress">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameTextField" disable="true" editable="false" focusTraversable="false" layoutX="80.0" layoutY="80.0" prefHeight="30.0" prefWidth="200.0" promptText="Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="classTextField" disable="true" editable="false" focusTraversable="false" layoutX="80.0" layoutY="130.0" prefHeight="30.0" prefWidth="200.0" promptText="Class">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="usernameTextField" alignment="CENTER" disable="true" editable="false" focusTraversable="false" layoutX="175.0" layoutY="20.0" prefHeight="30.0" prefWidth="250.0" promptText="Username">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="phoneNumberTextField" disable="true" editable="false" focusTraversable="false" layoutX="80.0" layoutY="180.0" prefHeight="30.0" prefWidth="200.0" promptText="Phone Number">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="backToMenuButton" cancelButton="true" focusTraversable="false" layoutX="235.0" layoutY="350.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="30.0" prefWidth="130.0" stylesheets="@../buttonStyleDefault.css" text="Back to menu">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="editButton" focusTraversable="false" layoutX="470.0" layoutY="350.0" mnemonicParsing="false" onAction="#edit" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Edit">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextField fx:id="actualRentalsLabel" disable="true" editable="false" focusTraversable="false" layoutX="320.0" layoutY="180.0" prefHeight="30.0" prefWidth="200.0" promptText="Actual rentals">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="forthcomingRentalEndLabel" alignment="CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="80.0" layoutY="250.0" prefHeight="50.0" prefWidth="440.0" text="The forthcoming end of the rental: Harry Potter i Insygnia Śmierci 12/12/2021" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="resetPasswordButton" disable="true" focusTraversable="false" layoutX="25.0" layoutY="350.0" mnemonicParsing="false" onAction="#resetPassword" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Reset Pass" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="deleteUserButton" disable="true" focusTraversable="false" layoutX="25.0" layoutY="310.0" mnemonicParsing="false" onAction="#delete" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Delete user" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="confirmButton" disable="true" focusTraversable="false" layoutX="470.0" layoutY="310.0" mnemonicParsing="false" onAction="#confirm" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Confirm" visible="false">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label fx:id="promptLabel" alignment="CENTER" focusTraversable="false" layoutX="163.0" layoutY="306.0" prefHeight="30.0" prefWidth="275.0" textFill="#0d00ff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="makeAdminButton" layoutX="470.0" layoutY="15.0" mnemonicParsing="false" onAction="#makeAdmin" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Make Admin">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Label fx:id="adminLabel" layoutX="25.0" layoutY="22.0" textFill="#00900c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

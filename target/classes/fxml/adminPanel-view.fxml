@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #45523e;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.AdminPanelController">
+   <children>
+      <Button focusTraversable="false" layoutX="230.0" layoutY="170.0" mnemonicParsing="false" onAction="#manageUsers" prefHeight="40.0" prefWidth="140.0" stylesheets="@../buttonStyleAdmin.css" text="Manage users">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="230.0" layoutY="220.0" mnemonicParsing="false" onAction="#manageRentals" prefHeight="40.0" prefWidth="140.0" stylesheets="@../buttonStyleAdmin.css" text="Manage rentals">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+      <Button cancelButton="true" focusTraversable="false" layoutX="230.0" layoutY="340.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="40.0" prefWidth="140.0" stylesheets="@../buttonStyleAdmin.css" text="Back to menu">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+      <Label focusTraversable="false" layoutX="172.0" layoutY="26.0" text="Admin Panel" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Calibri" size="50.0" />
+         </font>
+      </Label>
+      <Button focusTraversable="false" layoutX="230.0" layoutY="120.0" mnemonicParsing="false" onAction="#newBook" prefHeight="40.0" prefWidth="140.0" stylesheets="@../buttonStyleAdmin.css" text="New book">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

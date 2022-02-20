@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.FindBookController">
+   <children>
+      <Pagination fx:id="pagination" layoutX="25.0" layoutY="120.0" pageCount="1000" prefHeight="450.0" prefWidth="950.0" />
+      <TableView fx:id="booksTableView" layoutX="25.0" layoutY="120.0" prefHeight="400.0" prefWidth="950.0" style="-fx-background-color: #eed9c4;">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="200.0" style="-fx-background-color: #eed9c4;" text="Title" />
+          <TableColumn fx:id="authorColumn" prefWidth="200.0" style="-fx-background-color: #eed9c4;" text="Author" />
+            <TableColumn fx:id="genreColumn" prefWidth="150.0" style="-fx-background-color: #eed9c4;" text="Genre" />
+            <TableColumn fx:id="yearColumn" prefWidth="70.0" style="-fx-background-color: #eed9c4;" text="Year" />
+            <TableColumn fx:id="publisherColumn" prefWidth="100.0" style="-fx-background-color: #eed9c4;" text="Publisher" />
+            <TableColumn fx:id="noOfPagesColumn" style="-fx-background-color: #eed9c4;" text="No. of Pages" />
+            <TableColumn fx:id="targetGroupColumn" prefWidth="100.0" style="-fx-background-color: #eed9c4;" text="Target Group" />
+            <TableColumn fx:id="availableCopiesColumn" prefWidth="50.0" style="-fx-background-color: #eed9c4;" text="Copies" />
+        </columns>
+      </TableView>
+      <Button cancelButton="true" layoutX="20.0" layoutY="550.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="30.0" prefWidth="110.0" stylesheets="@../buttonStyleDefault.css" text="Back To Menu" />
+      <Button layoutX="870.0" layoutY="550.0" mnemonicParsing="false" onAction="#goToBook" prefHeight="30.0" prefWidth="110.0" stylesheets="@../buttonStyleDefault.css" text="Go to Book" />
+      <TextField fx:id="titleTextField" layoutX="30.0" layoutY="20.0" prefHeight="30.0" prefWidth="200.0" promptText="Title" />
+      <TextField fx:id="authorTextField" layoutX="30.0" layoutY="60.0" prefHeight="30.0" prefWidth="200.0" promptText="Author" />
+      <TextField fx:id="yearTextField" layoutX="280.0" layoutY="20.0" prefHeight="30.0" prefWidth="150.0" promptText="Year of Publication" />
+      <TextField fx:id="publisherTextField" layoutX="280.0" layoutY="60.0" prefHeight="30.0" prefWidth="150.0" promptText="Publisher" />
+      <Button layoutX="775.0" layoutY="20.0" mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleDefault.css" text="Search" />
+      <Button layoutX="775.0" layoutY="60.0" mnemonicParsing="false" onAction="#clear" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleDefault.css" text="Clear" />
+      <TextField fx:id="genreTextField" layoutX="500.0" layoutY="20.0" prefHeight="30.0" prefWidth="200.0" promptText="Genre" />
+      <TextField fx:id="targetGroupTextField" layoutX="500.0" layoutY="60.0" prefHeight="30.0" prefWidth="200.0" promptText="Title" />
+   </children>
+</Pane>

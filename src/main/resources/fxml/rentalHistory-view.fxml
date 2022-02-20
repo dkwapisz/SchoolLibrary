@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.RentalHistoryController">
+   <children>
+      <TableView fx:id="historyTableView" focusTraversable="true" layoutX="25.0" layoutY="80.0" prefHeight="410.0" prefWidth="950.0">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="400.0" style="-fx-background-color: #eed9c4;" text="Title" />
+          <TableColumn fx:id="authorColumn" prefWidth="300.0" style="-fx-background-color: #eed9c4;" text="Author" />
+            <TableColumn fx:id="rentalDateColumn" prefWidth="250.0" style="-fx-background-color: #eed9c4;" text="Rental Date" />
+        </columns>
+      </TableView>
+      <Button cancelButton="true" focusTraversable="false" layoutX="20.0" layoutY="550.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Back to menu" />
+      <Button layoutX="865.0" layoutY="550.0" mnemonicParsing="false" onAction="#goToBook" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleDefault.css" text="Go to Book" />
+      <TextField fx:id="titleTextField" layoutX="25.0" layoutY="30.0" prefHeight="30.0" prefWidth="250.0" promptText="Title" />
+      <TextField fx:id="authorTextField" layoutX="325.0" layoutY="30.0" prefHeight="30.0" prefWidth="200.0" promptText="Author" />
+      <Button layoutX="550.0" layoutY="30.0" mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="70.0" stylesheets="@../buttonStyleDefault.css" text="Search" />
+      <Pagination fx:id="pagination" layoutX="25.0" layoutY="80.0" prefHeight="470.0" prefWidth="950.0" />
+   </children>
+</Pane>

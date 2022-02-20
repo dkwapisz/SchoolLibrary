@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.BookController">
+   <children>
+      <Label fx:id="titleLabel" alignment="TOP_LEFT" layoutX="200.0" layoutY="24.0" prefHeight="66.0" prefWidth="400.0" text="Title:" textOverrun="CLIP" underline="true" wrapText="true">
+         <font>
+            <Font name="Georgia" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="authorLabel" layoutX="200.0" layoutY="90.0" prefHeight="30.0" prefWidth="400.0" text="Author:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="nrOfPagesLabel" layoutX="200.0" layoutY="420.0" prefHeight="30.0" prefWidth="400.0" text="Number of pages:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="targetGroupLabel" layoutX="200.0" layoutY="390.0" prefHeight="30.0" prefWidth="400.0" text="Target Group:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="genreLabel" layoutX="200.0" layoutY="300.0" prefHeight="30.0" prefWidth="400.0" text="Genre:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="availableCopiesLabel" layoutX="200.0" layoutY="480.0" prefHeight="30.0" prefWidth="200.0" text="Available copies:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="publisherLabel" layoutX="200.0" layoutY="330.0" prefHeight="30.0" prefWidth="400.0" text="Publisher:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearOfPublicationLabel" layoutX="200.0" layoutY="360.0" prefHeight="30.0" prefWidth="400.0" text="Year of publication:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptionLabel" alignment="TOP_LEFT" layoutX="200.0" layoutY="120.0" prefHeight="180.0" prefWidth="400.0" text="Description:" wrapText="true">
+         <font>
+            <Font name="Georgia" size="10.0" />
+         </font></Label>
+      <Label fx:id="nrOfCopiesLabel" layoutX="200.0" layoutY="450.0" prefHeight="30.0" prefWidth="200.0" text="Number of copies:">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Label>
+      <Button cancelButton="true" layoutX="20.0" layoutY="547.0" mnemonicParsing="false" onAction="#backToMenu" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Back to menu">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button layoutX="340.0" layoutY="547.0" mnemonicParsing="false" onAction="#backToSearch" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Back to search">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button fx:id="rentButton" layoutX="660.0" layoutY="547.0" mnemonicParsing="false" onAction="#rentBook" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Rent">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button fx:id="deleteBookButton" layoutX="180.0" layoutY="547.0" mnemonicParsing="false" onAction="#deleteBook" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Delete book">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button fx:id="editBookButton" layoutX="500.0" layoutY="547.0" mnemonicParsing="false" onAction="#editBook" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Edit book">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button fx:id="returnBookButton" focusTraversable="false" layoutX="660.0" layoutY="502.0" mnemonicParsing="false" onAction="#returnBook" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Return Book">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.RegisterController">
+   <children>
+      <TextField fx:id="surnameTextField" focusTraversable="false" layoutX="80.0" layoutY="100.0" prefHeight="30.0" prefWidth="200.0" promptText="Surname">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailTextField" focusTraversable="false" layoutX="320.0" layoutY="50.0" prefHeight="30.0" prefWidth="200.0" promptText="Email Adress">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameTextField" focusTraversable="false" layoutX="80.0" layoutY="50.0" prefHeight="30.0" prefWidth="200.0" promptText="Name">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="classTextField" focusTraversable="false" layoutX="80.0" layoutY="150.0" prefHeight="30.0" prefWidth="200.0" promptText="Class">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="usernameTextField" focusTraversable="false" layoutX="320.0" layoutY="100.0" prefHeight="30.0" prefWidth="200.0" promptText="Username (min. 4 chars)">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="phoneNumberTextField" focusTraversable="false" layoutX="80.0" layoutY="200.0" prefHeight="30.0" prefWidth="200.0" promptText="Phone Number">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passTextField" focusTraversable="false" layoutX="320.0" layoutY="150.0" prefHeight="30.0" prefWidth="200.0" promptText="Password (min. 8 chars)">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmPassTextField" focusTraversable="false" layoutX="320.0" layoutY="200.0" prefHeight="30.0" prefWidth="200.0" promptText="Confirm Password">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="backToLoginButton" cancelButton="true" focusTraversable="false" layoutX="223.0" layoutY="343.0" minWidth="120.0" mnemonicParsing="false" onAction="#backToLogin" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleDefault.css" text="Back to login">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font></Button>
+      <Button fx:id="createAccountButton" focusTraversable="false" layoutX="225.0" layoutY="288.0" minWidth="120.0" mnemonicParsing="false" onAction="#createAccount" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleDefault.css" text="Create Account">
+         <font>
+            <Font name="Georgia" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="promptLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="80.0" layoutY="250.0" prefHeight="30.0" prefWidth="440.0" style="-fx-background-color: #faf0e6;" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

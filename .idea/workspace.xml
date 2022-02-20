@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af2c5d80-c870-46d8-a93f-597ec681243f" name="Changes" comment="database scheme">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22F7HPSrjRUY6OeJQndygyN9Zur" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CosmoRush" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.25281474" />
+    <property name="project.structure.side.proportion" value="0.196702" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROJEKTY\JAVA\Library\src\main\resources\fxml" />
+      <recent name="D:\PROJEKTY\JAVA\Library\src\main\resources\agh\biblioteka\fxml" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-17.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="agh.biblioteka.app.Main" />
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.biblioteka.tableViewItems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af2c5d80-c870-46d8-a93f-597ec681243f" name="Changes" comment="" />
+      <created>1639421397077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639421397077</updated>
+      <workItem from="1639421398390" duration="809000" />
+      <workItem from="1639480775199" duration="125000" />
+      <workItem from="1639508410399" duration="8000" />
+      <workItem from="1639508440456" duration="83000" />
+      <workItem from="1639509728846" duration="61000" />
+      <workItem from="1639658441200" duration="6360000" />
+      <workItem from="1639676863831" duration="3957000" />
+      <workItem from="1639680995549" duration="110000" />
+      <workItem from="1639781049462" duration="1793000" />
+      <workItem from="1639824504710" duration="5421000" />
+      <workItem from="1639913331405" duration="360000" />
+      <workItem from="1640011157306" duration="11119000" />
+      <workItem from="1640084586396" duration="96000" />
+      <workItem from="1640169641205" duration="6441000" />
+      <workItem from="1640212390261" duration="6373000" />
+      <workItem from="1640248831399" duration="10675000" />
+      <workItem from="1640350826937" duration="1142000" />
+      <workItem from="1640373899051" duration="5897000" />
+      <workItem from="1640384460779" duration="605000" />
+      <workItem from="1640431689527" duration="10124000" />
+      <workItem from="1640446177507" duration="1005000" />
+      <workItem from="1640460979411" duration="6130000" />
+      <workItem from="1640601609192" duration="10486000" />
+      <workItem from="1640692549942" duration="13507000" />
+      <workItem from="1640715881799" duration="7980000" />
+      <workItem from="1640813431484" duration="6588000" />
+      <workItem from="1640861011006" duration="4369000" />
+      <workItem from="1640902225860" duration="1615000" />
+      <workItem from="1640953185683" duration="14299000" />
+      <workItem from="1640969156080" duration="10000" />
+      <workItem from="1640982370855" duration="3594000" />
+      <workItem from="1641123079745" duration="320000" />
+      <workItem from="1641754750706" duration="96000" />
+      <workItem from="1643704231232" duration="978000" />
+      <workItem from="1644233879480" duration="1792000" />
+      <workItem from="1644260175371" duration="255000" />
+      <workItem from="1644413320326" duration="3000" />
+      <workItem from="1644423061778" duration="922000" />
+      <workItem from="1644424131917" duration="2423000" />
+      <workItem from="1644444087087" duration="209000" />
+    </task>
+    <task id="LOCAL-00001" summary="Project rename">
+      <created>1639508482124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639508482124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="LoginWindow, MenuWindow, SettingsWindow, RegisterWindow.">
+      <created>1639665515783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639665515783</updated>
+    </task>
+    <task id="LOCAL-00003" summary="MyRentalsWindow + Rental Class">
+      <created>1639680829925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639680829925</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Rental History + date sorting">
+      <created>1639781951055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639781951055</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rental History + date sorting">
+      <created>1639782830428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639782830428</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Rental History + date sorting">
+      <created>1639782837425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639782837425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SearchWindow + basic Pagination">
+      <created>1639830933321</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639830933321</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Book ID in Book Class">
+      <created>1639913687932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639913687932</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BookWindow, BookID (BID), pagination &amp; bug fixes">
+      <created>1640021177932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640021177932</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Double click in TableRow, pagination bug fix">
+      <created>1640031076072</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640031076072</updated>
+    </task>
+    <task id="LOCAL-00011" summary="AddBookWindow, AdminPanelWindow, and few upgrades">
+      <created>1640176830118</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1640176830118</updated>
+    </task>
+    <task id="LOCAL-00012" summary="RentalInfoWindow, EditBookWindow, User Class, Rental Class update, refactored TODO">
+      <created>1640219053726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640219053726</updated>
+    </task>
+    <task id="LOCAL-00013" summary="UserProfileWindow, RentalInfoWindow, SearchUsersWindow, SearchRentalsWindow. All windows done.">
+      <created>1640259890448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640259890448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="UserProfileWindow, RentalInfoWindow, SearchUsersWindow, SearchRentalsWindow. All windows done.">
+      <created>1640259902024</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1640259902024</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TODO update">
+      <created>1640259933237</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1640259933237</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added TODO, basic dates validation">
+      <created>1640351960747</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1640351960747</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Date validation">
+      <created>1640375790723</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375790723</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Register data validation with email and phone regex">
+      <created>1640378701862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378701862</updated>
+    </task>
+    <task id="LOCAL-00019" summary="MySQL database connection through SSH Tunel">
+      <created>1640443335864</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640443335864</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Package reorganisation">
+      <created>1640446551736</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1640446551736</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Password hashing SHA-256 with salt">
+      <created>1640549713129</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1640549713129</updated>
+    </task>
+    <task id="LOCAL-00022" summary="SQL tests">
+      <created>1640638490782</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640638490782</updated>
+    </task>
+    <task id="LOCAL-00023" summary="User table in database">
+      <created>1640705968760</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1640705968760</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Searching users by admin, regex bug fix">
+      <created>1640728766926</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1640728766926</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Books_list table, Adding books, Book view">
+      <created>1640820113386</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1640820113386</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Searching books, editing books">
+      <created>1640866904436</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1640866904436</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Searching books, editing books">
+      <created>1640866915160</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640866915160</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Whole rental system, everything should work, just one TODO">
+      <created>1640968902723</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1640968902723</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Whole rental system, everything should work, just one TODO">
+      <created>1640968914739</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1640968914739</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Everything should working">
+      <created>1640983964985</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1640983964986</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fxmls">
+      <created>1643707887975</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1643707887975</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Final modifications">
+      <created>1644235590834</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1644235590834</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Final frontend">
+      <created>1644414493845</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1644414493845</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Screenshots + Database">
+      <created>1644426407327</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644426407327</updated>
+    </task>
+    <task id="LOCAL-00035" summary="database scheme">
+      <created>1644426490025</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644426490025</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="BookWindow, BookID (BID), pagination &amp; bug fixes" />
+    <MESSAGE value="Double click in TableRow, pagination bug fix" />
+    <MESSAGE value="AddBookWindow, AdminPanelWindow, and few upgrades" />
+    <MESSAGE value="RentalInfoWindow, EditBookWindow, User Class, Rental Class update, refactored TODO" />
+    <MESSAGE value="UserProfileWindow, RentalInfoWindow, SearchUsersWindow, SearchRentalsWindow. All windows done." />
+    <MESSAGE value="TODO update" />
+    <MESSAGE value="Added TODO, basic dates validation" />
+    <MESSAGE value="Date validation" />
+    <MESSAGE value="Register data validation with email and phone regex" />
+    <MESSAGE value="MySQL database connection through SSH Tunel" />
+    <MESSAGE value="Package reorganisation" />
+    <MESSAGE value="Password hashing SHA-256 with salt" />
+    <MESSAGE value="SQL tests" />
+    <MESSAGE value="User table in database" />
+    <MESSAGE value="Searching users by admin, regex bug fix" />
+    <MESSAGE value="Books_list table, Adding books, Book view" />
+    <MESSAGE value="Searching books, editing books" />
+    <MESSAGE value="Whole rental system, everything should work, just one TODO" />
+    <MESSAGE value="Everything should working" />
+    <MESSAGE value="menu view fxml" />
+    <MESSAGE value="fxmls" />
+    <MESSAGE value="Final modifications" />
+    <MESSAGE value="Final frontend" />
+    <MESSAGE value="Screenshots + Database" />
+    <MESSAGE value="database scheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="database scheme" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="agh.biblioteka.controllers.FindBookController" memberName="booksTableView" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

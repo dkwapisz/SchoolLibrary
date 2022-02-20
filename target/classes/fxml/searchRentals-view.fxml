@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" style="-fx-background-color: #45523e;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.SearchRentalsController">
+   <children>
+      <Pagination fx:id="pagination" layoutX="25.0" layoutY="120.0" pageCount="1000" prefHeight="450.0" prefWidth="950.0" />
+      <TableView fx:id="actualRentalsTableView" layoutX="25.0" layoutY="120.0" prefHeight="400.0" prefWidth="950.0" style="-fx-background-color: #b5bab2;">
+        <columns>
+          <TableColumn fx:id="titleColumn" prefWidth="250.0" style="-fx-background-color: #b5bab2;" text="Title" />
+          <TableColumn fx:id="authorColumn" prefWidth="250.0" style="-fx-background-color: #b5bab2;" text="Author" />
+            <TableColumn fx:id="usernameColumn" prefWidth="200.0" style="-fx-background-color: #b5bab2;" text="Username" />
+            <TableColumn fx:id="startDateColumn" prefWidth="125.0" style="-fx-background-color: #b5bab2;" text="Start Date" />
+            <TableColumn fx:id="endDateColumn" prefWidth="125.0" style="-fx-background-color: #b5bab2;" text="End Date" />
+        </columns>
+      </TableView>
+      <Button cancelButton="true" layoutX="20.0" layoutY="550.0" mnemonicParsing="false" onAction="#backToAdmin" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleAdmin.css" text="Back to Admin" />
+      <Button layoutX="865.0" layoutY="550.0" mnemonicParsing="false" onAction="#goToRental" prefHeight="30.0" prefWidth="115.0" stylesheets="@../buttonStyleAdmin.css" text="Go to rental" />
+      <TextField fx:id="titleTextField" layoutX="30.0" layoutY="20.0" prefHeight="30.0" prefWidth="200.0" promptText="Title" />
+      <TextField fx:id="authorTextField" layoutX="30.0" layoutY="60.0" prefHeight="30.0" prefWidth="200.0" promptText="Author" />
+      <TextField fx:id="usernameTextField" focusTraversable="false" layoutX="280.0" layoutY="20.0" prefHeight="30.0" prefWidth="180.0" promptText="Username" />
+      <Button layoutX="775.0" layoutY="20.0" mnemonicParsing="false" onAction="#search" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleAdmin.css" text="Search" />
+      <Button layoutX="775.0" layoutY="60.0" mnemonicParsing="false" onAction="#clear" prefHeight="30.0" prefWidth="150.0" stylesheets="@../buttonStyleAdmin.css" text="Clear" />
+      <DatePicker fx:id="startDatePicker" focusTraversable="false" layoutX="510.0" layoutY="20.0" prefHeight="30.0" prefWidth="180.0" promptText="Start Date" />
+      <DatePicker fx:id="endDatePicker" focusTraversable="false" layoutX="510.0" layoutY="60.0" prefHeight="30.0" prefWidth="180.0" promptText="End Date" />
+   </children>
+</Pane>

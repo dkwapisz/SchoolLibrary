@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.RentalInfoController">
+   <children>
+      <Button cancelButton="true" focusTraversable="false" layoutX="20.0" layoutY="350.0" mnemonicParsing="false" onAction="#backToRental" prefHeight="30.0" prefWidth="140.0" stylesheets="@../buttonStyleDefault.css" text="Back to rental list" />
+      <Button fx:id="editRentalButton" focusTraversable="false" layoutX="440.0" layoutY="350.0" mnemonicParsing="false" onAction="#editRental" prefHeight="30.0" prefWidth="140.0" stylesheets="@../buttonStyleDefault.css" text="Edit rental" />
+      <Label fx:id="titleLabel" alignment="TOP_CENTER" contentDisplay="CENTER" focusTraversable="false" layoutX="100.0" layoutY="20.0" prefHeight="50.0" prefWidth="400.0" text="Title: " textAlignment="CENTER" textOverrun="CLIP" underline="true" wrapText="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="authorLabel" alignment="TOP_CENTER" focusTraversable="false" layoutX="100.0" layoutY="80.0" prefHeight="50.0" prefWidth="400.0" text="Author: " textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="startDatePicker" editable="false" focusTraversable="false" layoutX="210.0" layoutY="200.0" promptText="Start date" />
+      <DatePicker fx:id="endDatePicker" editable="false" focusTraversable="false" layoutX="210.0" layoutY="240.0" promptText="End Date" />
+      <Label focusTraversable="false" layoutX="130.0" layoutY="200.0" prefHeight="26.0" prefWidth="74.0" text="Start date:" />
+      <Label focusTraversable="false" layoutX="130.0" layoutY="240.0" prefHeight="26.0" prefWidth="74.0" text="End date:" />
+      <Hyperlink fx:id="userHyperlink" alignment="CENTER" focusTraversable="false" layoutX="150.0" layoutY="140.0" onAction="#goToUser" prefHeight="30.0" prefWidth="300.0" text="Username: " textFill="#0d0d0d" wrapText="true" />
+      <Label fx:id="promptLabel" alignment="CENTER" layoutX="100.0" layoutY="300.0" prefHeight="20.0" prefWidth="400.0" textFill="#0004ff">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="confirmButton" disable="true" focusTraversable="false" layoutX="240.0" layoutY="350.0" mnemonicParsing="false" onAction="#confirmEdit" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Confirm edit" visible="false" />
+      <Button fx:id="deleteRentalButton" disable="true" focusTraversable="false" layoutX="240.0" layoutY="310.0" mnemonicParsing="false" onAction="#deleteRental" prefHeight="30.0" prefWidth="120.0" stylesheets="@../buttonStyleDefault.css" text="Delete rental" visible="false" />
+   </children>
+</Pane>

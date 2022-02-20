@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #faf0e6;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="agh.biblioteka.controllers.RentBookController">
+   <children>
+      <Button cancelButton="true" focusTraversable="false" layoutX="30.0" layoutY="350.0" mnemonicParsing="false" onAction="#backToBook" prefHeight="30.0" prefWidth="110.0" stylesheets="@../buttonStyleDefault.css" text="Back to book" />
+      <Button fx:id="rentBookButton" focusTraversable="false" layoutX="460.0" layoutY="350.0" mnemonicParsing="false" onAction="#rentBook" prefHeight="30.0" prefWidth="110.0" stylesheets="@../buttonStyleDefault.css" text="Rent" />
+      <DatePicker fx:id="startDatePicker" focusTraversable="false" layoutX="210.0" layoutY="174.0" promptText="Start Date" />
+      <DatePicker fx:id="endDatePicker" focusTraversable="false" layoutX="210.0" layoutY="214.0" promptText="End Date" />
+      <Label fx:id="titleLabel" alignment="CENTER" focusTraversable="false" layoutX="75.0" layoutY="10.0" prefHeight="70.0" prefWidth="450.0" text="Title:" textOverrun="CLIP" underline="true" wrapText="true">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="authorLabel" alignment="CENTER" focusTraversable="false" layoutX="75.0" layoutY="80.0" prefHeight="50.0" prefWidth="450.0" text="Author:" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="promptLabel" alignment="CENTER" focusTraversable="false" layoutX="165.0" layoutY="280.0" prefHeight="30.0" prefWidth="270.0" textFill="#0011ff">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
