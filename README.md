@@ -46,5 +46,9 @@ The administrator can:
 
 To create database tables with sample data, use [this file](https://github.com/dkwapisz/SchoolLibrary/blob/master/database.sql). You can also use this file to create empty tables.
 
+Administrator account:
+- Username: admin
+- Password: admin
+
 ## Acknowledgments
 - Project was created in cooperation with [Agnieszka Żupnik](https://github.com/agnieszkowe) and [Anna Młynarczyk](https://github.com/annamlynarczyk)
